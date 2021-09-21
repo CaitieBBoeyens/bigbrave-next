@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint", "sort": "node_modules/.bin/import-sort --write '**/*.ts' '**/*.tsx' '**/*.js' '!**/*.d.ts' '!{.,**}/{.idea,netlify,.next,node_modules,.git,build,,dist,vendors,Script.ts}/**'",
+    "lint": "next lint", 
     "release": "git add .; git commit -m '[R] Release: 1.1.14'; git pull; git push;",
     "deploy-minor": "node release.js --r=minor; yarn release;",
     "deploy-feature": "node release.js --r=feature; yarn release;",
