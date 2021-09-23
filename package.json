@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "release": "git add .; git commit -m '[R] Release: 1.1.14'; git pull; git push;",
+    "release": "git add .; git commit -m '[R] Release: 1.1.14'; git pull; git push; yarn changelog;",
     "deploy-minor": "node release.js --r=minor; yarn release;",
     "deploy-feature": "node release.js --r=feature; yarn release;",
     "deploy-major": "node release.js --r=major; yarn release;"
